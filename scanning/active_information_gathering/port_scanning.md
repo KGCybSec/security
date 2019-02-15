@@ -15,6 +15,7 @@ unicornscan -mU -v -I 10.11.1.X
 
 # Scan for version, with NSE-scripts and trying to identify OS
 nmap 10.11.1.X -sV -sC -O
+Warning: sometimes the -sV option give a "tcpwrapped" on certains ports label on the scan report
 
 # All out monsterscan
 nmap -vvv -Pn -A -iL listOfIP.txt
