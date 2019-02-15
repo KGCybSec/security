@@ -6,8 +6,7 @@ This is how you do it
 
 ## Create linux-usb
 
-Just follow this guide for ubuntu
-http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-ubuntu
+Just follow this guide for ubuntu [http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-ubuntu](http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-ubuntu)
 
 ## Boot into live-usb on victim machine
 
@@ -15,16 +14,16 @@ If the machine doesn't automatically detect the usb you might have to enter into
 
 ## Mount disk
 
-Now you have booted into the live-usb, now we need to mount the hard-drive to the usb-linux-filesystem.
-First we want to find out what partitions we have:
+Now you have booted into the live-usb, now we need to mount the hard-drive to the usb-linux-filesystem. First we want to find out what partitions we have:
 
-```
+```text
 sudo su
 fdisk -l
 ```
+
 This will give you a list of partitions. They will look something like this
 
-```
+```text
 /dev/sda1
 /dev/sda2
 ```
@@ -32,11 +31,12 @@ This will give you a list of partitions. They will look something like this
 Identify from the list the partition you want to mount.
 
 Here we create a space for where we want to mount the partition.
-```
+
+```text
 mkdir /media/windows
 ```
 
-```
+```text
 mount -t ntfs /dev/sda1 /media/windows
 ```
 
@@ -48,11 +48,11 @@ Now you can access all the files from the harddrive in `/media/windows`
 
 Notice that is is `umount` and not unmount.
 
-```
+```text
 umount /media/windows
 ```
 
-
 ## Dump the hashes
 
-https://prakharprasad.com/windows-password-cracking-using-john-the-ripper/
+[https://prakharprasad.com/windows-password-cracking-using-john-the-ripper/](https://prakharprasad.com/windows-password-cracking-using-john-the-ripper/)
+
