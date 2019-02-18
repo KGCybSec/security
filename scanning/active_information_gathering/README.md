@@ -16,6 +16,8 @@ Nikto is a good tool to scan webservers. It is very intrusive.
 
 ```text
 nikto -host 192.168.1.101
+# Using a proxy
+nitko -host http://192.168.124.130 -useproxy 192.168.124.130:3128
 ```
 
 ## References
