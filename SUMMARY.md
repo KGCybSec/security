@@ -38,6 +38,7 @@
     * [Common ports\/services and how to use them](vulnerability_analysi1s/server-side-vulnerabilities/list_of_common_ports.md)
     * [Port Knocking](vulnerability_analysi1s/server-side-vulnerabilities/port_knocking.md)
   * [HTTP - Web Vulnerabilities](vulnerability_analysi1s/web-services/README.md)
+    * [HTTP PUT](vulnerability_analysi1s/web-services/http-put.md)
     * [Common Web-services](vulnerability_analysi1s/web-services/common_web-services.md)
     * [Authentication](vulnerability_analysi1s/web-services/authentication/README.md)
       * [OAuth](vulnerability_analysi1s/web-services/authentication/oauth.md)
