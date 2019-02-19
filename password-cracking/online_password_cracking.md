@@ -2,6 +2,13 @@
 
 There are several tools specialized for bruteforcing online. There are several different services that are common for bruteforce. For example: VNC, SSH, FTP, SNMP, POP3, HTTP.
 
+## Port 21 - FTP
+
+```text
+hydra -L users.txt -e nsr 192.168.56.102 ftp
+# -e nsr try "n" null password, "s" login as pass and/or "r" reversed login
+```
+
 ## Port 22 - SSH
 
 ```text
