@@ -15,6 +15,9 @@ print encoded
 
 decoded = base64.b64decode("aGVqc2Fu")
 print decoded
+
+# Decode a list of base64 with bash
+cat answer.txt | base64 --decode > decoded_answer.txt
 ```
 
 ## Default passwords
