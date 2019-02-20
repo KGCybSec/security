@@ -349,6 +349,8 @@ On some machines we might not be able to edit the sudoers file because we don't 
 echo "username ALL=(ALL) ALL" >> /etc/sudoers
 ```
 
+{% embed url="https://www.linuxtricks.fr/wiki/sudo-utiliser-et-parametrer-sudoers" %}
+
 Check which users are in the sudo group:
 
 ```text
