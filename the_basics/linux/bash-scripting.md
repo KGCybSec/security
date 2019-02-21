@@ -1,6 +1,6 @@
 # Bash-scripting
 
-### Variables
+## Variables
 
 ```bash
 # There can't be any space between the variable name and the equal sign. It has to be varname=command
@@ -74,7 +74,7 @@ else
 fi
 ```
 
-### Functions
+## Functions
 
 ```text
 #!/bin/bash
@@ -127,4 +127,24 @@ This can be done like this:
 
 cat $(locate 646.c | tail -n 1)
 ```
+
+## Privileged mod
+
+Option -p : Doesn't replace the euid by the uid and the geuid by the guid:
+
+```text
+-rwsrwxrwx 1 root   root   920788 Feb  6 20:54 bash2
+
+vulnix@vulnix:~$ ./bash2
+bash2-4.2$ id
+uid=2008(vulnix) gid=2008(vulnix) groups=2008(vulnix)
+bash2-4.2$ exit
+vulnix@vulnix:~$ ./bash2 -p
+bash2-4.2# id
+uid=2008(vulnix) gid=2008(vulnix) euid=0(root) groups=0(root),2008(vulnix)
+```
+
+{% embed url="http://manpagesfr.free.fr/man/man1/bash.1.html" %}
+
+
 
