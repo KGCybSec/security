@@ -284,5 +284,5 @@ This is a good video-explanation:
 
 [https://www.cybrary.it/0p3n/pivot-network-port-forwardingredirection-hands-look/](https://www.cybrary.it/0p3n/pivot-network-port-forwardingredirection-hands-look/)
 
-[https://medium.com/@incubusattax/setting-up-an-ssh-tunnel-using-plink-7d8dacfd4014](https://medium.com/@incubusattax/setting-up-an-ssh-tunnel-using-plink-7d8dacfd4014)
+[https://www.fireeye.com/blog/threat-research/2019/01/bypassing-network-restrictions-through-rdp-tunneling.html](https://www.fireeye.com/blog/threat-research/2019/01/bypassing-network-restrictions-through-rdp-tunneling.html)
 
