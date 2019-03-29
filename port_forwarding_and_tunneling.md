@@ -282,3 +282,5 @@ This is a good video-explanation:
 
 [http://ways2hack.com/how-to-do-pivoting-attack/](http://ways2hack.com/how-to-do-pivoting-attack/)
 
+[https://www.cybrary.it/0p3n/pivot-network-port-forwardingredirection-hands-look/](https://www.cybrary.it/0p3n/pivot-network-port-forwardingredirection-hands-look/)
+

@@ -74,6 +74,12 @@ findstr file.txt
 
 `taskkill /PID 1532 /F`
 
+#### List the services running under each process
+
+```text
+TASKLIST /svc
+```
+
 ### Users
 
 ```text
