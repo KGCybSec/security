@@ -59,7 +59,6 @@
       * [XML External Entity Attack](vulnerability_analysi1s/web-services/lead_to_compromise/xml_external_entity_attack.md)
       * [Bypass File Upload Filtering](vulnerability_analysi1s/web-services/lead_to_compromise/bypass_image_upload.md)
       * [Exposed Version Control](vulnerability_analysi1s/web-services/lead_to_compromise/exposed_version_control.md)
-      * [Directory Traversal Attack](vulnerability_analysi1s/web-services/lead_to_compromise/directory-traversal-attack-1.md)
       * [Host Header Attack](vulnerability_analysi1s/web-services/lead_to_compromise/host-header-attack.md)
       * [Deserialization attacks](vulnerability_analysi1s/web-services/lead_to_compromise/deserialization-attacks.md)
   * [Attacking the User](vulnerability_analysi1s/attacking_the_user/README.md)
