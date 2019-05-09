@@ -31,6 +31,10 @@ hydra -e nsr -l loneferret -P /root/Desktop/wordlists/10_million_password_list_t
 medusa -h 192.168.56.103 -U users.txt -P /usr/share/wordlists/rockyou.txt -e ns -f -M ssh
 ```
 
+### Authorized keys
+
+[https://github.com/weaknetlabs/Penetration-Testing-Grimoire/blob/master/Vulnerabilities/SSH/key-exploit.md](https://github.com/weaknetlabs/Penetration-Testing-Grimoire/blob/master/Vulnerabilities/SSH/key-exploit.md)
+
 ## Port 80/443 htaccess
 
 You can password protect directories with apache pretty easily. Just configure the htaccess \(I exaplin this in the chapter on Common ports\).
